@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../src/spelling.min.js"></script>
+</head>
+
+<body>
+    <div>
+        <p>
+            <script>
+                spelling.options({fullSpellSeparate:'',fullCharCase:'upperCamelCase',firstCharCase:'lowerCase'});
+                document.write(spelling.getFullSpell('咏鹅'));
+            </script>
+        </p>
+        <p>咏鹅</p>
+        <p>
+            <script>
+                document.write(spelling.getFullSpell('唐：骆宾王'));
+            </script>
+        </p>
+        <p>唐：骆宾王</p>
+        <p>
+            <script>
+                document.write(spelling.getFullSpell('鹅，鹅，鹅，曲项向天歌'));
+            </script>
+        </p>
+        <p>鹅，鹅，鹅，曲项向天歌</p>
+        <p>
+            <script>
+                document.write(spelling.getFullSpell('白毛浮绿水，红掌拨清波'));
+            </script>
+        </p>
+        <p>白毛浮绿水，红掌拨清波</p>
+    </div>
+    
+    <div>
+            <p>
+                <script>
+                    document.write(spelling.getFirstSpell('咏鹅'));
+                </script>
+            </p>
+            <p>咏鹅</p>
+            <p>
+                <script>
+                    document.write(spelling.getFirstSpell('唐：骆宾王'));
+                </script>
+            </p>
+            <p>唐：骆宾王</p>
+            <p>
+                <script>
+                    document.write(spelling.getFirstSpell('鹅，鹅，鹅，曲项向天歌'));
+                </script>
+            </p>
+            <p>鹅，鹅，鹅，曲项向天歌</p>
+            <p>
+                <script>
+                    document.write(spelling.getFirstSpell('白毛浮绿水，红掌拨清波'));
+                </script>
+            </p>
+            <p>白毛浮绿水，红掌拨清波</p>
+        </div>
+</body>
+
+</html>
