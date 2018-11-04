@@ -25,8 +25,8 @@
     this.initialize();
   }
 
-  //合并对象
   spelling.prototype = {
+    //合并对象
     extend: function(dst, src) {
       for (var property in src) {
         dst[property] = src[property];
