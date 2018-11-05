@@ -1,6 +1,6 @@
 # spelling.js
 
-![](https://img.shields.io/badge/.NET-%3E%3D3.5-brightgreen.svg)
+<!-- ![](https://img.shields.io/badge/.NET-%3E%3D3.5-brightgreen.svg) -->
 ![](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![](https://img.shields.io/badge/license-Apache%20Licence%202.0-green.svg)
 
